@@ -1,16 +1,44 @@
 <html lang="pt">
   <head>
     <title>Minha primeira pagina</title>
-    </head>
-    <body>
-      <header>
-        <h1>Minha primeira página HTML</h1>
-      </header>
-      <section>
-        <p>Eu estou adorando aprender sobre programaçao WEB depois de Blockchain</p>
-      </section>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <header>
+      <img src="https://www.portalvgv.com.br/site/wp-content/uploads/2017/01/abrir-uma-imobiliaria-1.png" alt="Ethereum is a crypto currency" />
+      <br>
+      <h1 class="textoImportante">Registro Informal de Imóveis</h1>
+    </header>
+    <section id="texto">
+      <p class="textoImportante">Eu estou adorando aprender sobre programação WEB depois de Blockchain</p>
+     </section>
+     <section>
+       <form name="formImovel" id="formImovel">
+        <fieldset>
+          <legend>Preencha os campos para registrar um imóvel &nbsp;</legend>
+          <div>
+            <label for="paramEndereco">Endereço Ethereum do Proprietário: </label>
+            <br>
+            <input type="text" id="paramEndereco" name="paramEndereco" size="22" maxlength="22" >
+          </div>
+          <div>
+            <label for="paramNomeProprietario">Nome do Proprietário:</label>
+            <br>
+            <input type="text" name="paramNomeProprietario" id="paramNomeProprietario" size="100">
+          </div>
+          <div>
+            <label for="paramValorVenal">Valor Venal: </label>
+            R$ <input type="number" name="paramValorVenal" id="paramValorVenal">
+          </div>
+          <div>
+            <button>💾 Salvar</button>
+          </div>
+        </fieldset>
+       </form>
+     </section>
     <footer>
-      <small>Aqui vem aquela parte cliché de copyright</small>
+      <hr>
+      <small class="textoImportante">Aqui vem aquela parte clichê de copyright</small>
     </footer>
   </body>
 </html>
