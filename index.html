@@ -1,44 +1,56 @@
+<!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <title>Minha primeira pagina</title>
-    <link rel="stylesheet" href="estilo.css">
-  </head>
-  <body>
-    <header>
-      <img src="https://www.portalvgv.com.br/site/wp-content/uploads/2017/01/abrir-uma-imobiliaria-1.png" alt="Ethereum is a crypto currency" />
-      <br>
-      <h1 class="textoImportante">Registro Informal de Imóveis</h1>
+<head>
+<title>Registro de Imóveis Online</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="estilo.css">
+</head>
+        
+<body>
+    <header id="titulo">
+        <img src="https://jurosbaixos.com.br/conteudo/wp-content/uploads/sites/2/2017/09//1505248216_image2.png" alt="Registro de Imóveis em Blockchain" style= "float:left;"/>
+        <h1>Registro de Imóveis em Blockchain</h1>
+        <br>
     </header>
+
     <section id="texto">
-      <p class="textoImportante">Eu estou adorando aprender sobre programação WEB depois de Blockchain</p>
-     </section>
-     <section>
-       <form name="formImovel" id="formImovel">
+        <p>O Blockchain permite o controle do registro de imóveis de forma segura 
+        com rastreabilidade e transparência. <br> Vamos fazer uma tentativa, experimente preenchendo
+        o formulário abaixo.</p>
+        <br>
+    </section>
+    
+    <section id="textoImportante">
+        <form name="formImovel" id="formImovel">
         <fieldset>
-          <legend>Preencha os campos para registrar um imóvel &nbsp;</legend>
-          <div>
+            <legend>Preencha os campos para registrar um imóvel &nbsp;</legend>
+            <div>
             <label for="paramEndereco">Endereço Ethereum do Proprietário: </label>
-            <br>
             <input type="text" id="paramEndereco" name="paramEndereco" size="22" maxlength="22" >
-          </div>
-          <div>
+            </div>
+                
+            <div>
             <label for="paramNomeProprietario">Nome do Proprietário:</label>
-            <br>
             <input type="text" name="paramNomeProprietario" id="paramNomeProprietario" size="100">
-          </div>
-          <div>
+            </div>
+            
+            <div>
             <label for="paramValorVenal">Valor Venal: </label>
             R$ <input type="number" name="paramValorVenal" id="paramValorVenal">
-          </div>
-          <div>
-            <button>💾 Salvar</button>
-          </div>
+            </div>
+            
+            <div>
+            <button style="float:right;">💾 Salvar</button>
+            </div>
         </fieldset>
-       </form>
-     </section>
+        </form>
+    </section>
+    
     <footer>
-      <hr>
-      <small class="textoImportante">Aqui vem aquela parte clichê de copyright</small>
+        <hr>
+        <small class="textoImportante">Copyright - "Alunos do Jeff"</small>
     </footer>
-  </body>
+</body>
+
 </html>
